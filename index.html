@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Efoé WALLACE — Data Analyst Industrie</title>
+  <meta name="description" content="Portfolio — tableaux de bord production, commercial & maintenance prédictive" />
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Small visual tweaks */
+    .card { @apply bg-white shadow-md rounded-lg p-6 border border-gray-100; }
+    .kpi { @apply text-3xl font-semibold; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800 leading-relaxed">
+  <header class="max-w-5xl mx-auto p-6 flex items-center justify-between">
+    <div>
+      <h1 class="text-2xl font-bold">Efoé WALLACE</h1>
+      <p class="text-sm text-gray-600">Data Analyst Industrie — j'aide les PME à piloter leur performance par la donnée</p>
+    </div>
+    <nav class="space-x-4 text-sm">
+      <a href="#projects" class="text-gray-700 hover:text-gray-900">Projets</a>
+      <a href="#about" class="text-gray-700 hover:text-gray-900">À propos</a>
+      <a href="#contact" class="text-gray-700 hover:text-gray-900">Contact</a>
+    </nav>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-6 pb-12">
+    <!-- Hero -->
+    <section class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
+      <div class="md:col-span-2 card">
+        <h2 class="text-xl font-semibold">Transformez vos données en leviers concrets</h2>
+        <p class="mt-3 text-gray-600">Tableaux de bord production (OEE/TRS), suivi commercial et maintenance prédictive — je conçois des solutions simples, actionnables et adaptées aux PME industrielles.</p>
+        <ul class="mt-4 text-sm space-y-2 text-gray-600">
+          <li>• Audit rapide des données & POC (Proof of Concept)</li>
+          <li>• Tableaux de bord automatisés (Power BI, Excel, Power Query)</li>
+          <li>• Modèles de maintenance prédictive (RandomForest, XGBoost)</li>
+        </ul>
+        <div class="mt-4">
+          <a href="#projects" class="inline-block bg-gray-900 text-white px-4 py-2 rounded hover:bg-black">Voir les projets</a>
+        </div>
+      </div>
+      <div class="card text-center">
+        <div class="kpi">€20k / an</div>
+        <div class="text-sm text-gray-600 mt-2">Objectif d'épargne: plan & side-income</div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="mt-10">
+      <h3 class="text-lg font-semibold mb-4">Projets sélectionnés</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+        <!-- Project 1 -->
+        <article class="card">
+          <h4 class="font-semibold">Suivi de production (Power BI)</h4>
+          <p class="text-sm text-gray-600 mt-2">Tableau de bord OEE/TRS, temps d'arrêt et performance machine — conçu pour donner une vue quotidienne claire au manager d'atelier.</p>
+          <div class="mt-4">
+            <!-- Replace with your gif or image -->
+            <img src="./assets/prod_demo.gif" alt="Demo production" class="w-full rounded-md border" />
+          </div>
+          <div class="mt-4 flex items-center justify-between">
+            <a href="./projects/suivi-production.html" class="text-sm text-gray-700 hover:underline">Page projet</a>
+            <a href="./data/production_demo.pbix" class="text-sm text-gray-700 hover:underline">Télécharger PBIX</a>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="card">
+          <h4 class="font-semibold">Suivi d'activité commerciale (Power BI)</h4>
+          <p class="text-sm text-gray-600 mt-2">Suivi des ventes, marges et pipeline commercial — rapports automatiques pour la direction commerciale.</p>
+          <div class="mt-4">
+            <img src="./assets/sales_demo.gif" alt="Demo sales" class="w-full rounded-md border" />
+          </div>
+          <div class="mt-4 flex items-center justify-between">
+            <a href="./projects/suivi-commercial.html" class="text-sm text-gray-700 hover:underline">Page projet</a>
+            <a href="./data/sales_demo.pbix" class="text-sm text-gray-700 hover:underline">Télécharger PBIX</a>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="card">
+          <h4 class="font-semibold">Maintenance prédictive (Dashboard interactif)</h4>
+          <p class="text-sm text-gray-600 mt-2">Modèle ML pour anticiper les pannes + dashboard interactif. Démo en ligne et code source disponible.</p>
+          <div class="mt-4">
+            <img src="./assets/maintenance_demo.gif" alt="Demo maintenance" class="w-full rounded-md border" />
+          </div>
+          <div class="mt-4 flex items-center justify-between">
+            <a href="./projects/maintenance-predictive.html" class="text-sm text-gray-700 hover:underline">Page projet</a>
+            <a href="https://ton-dashboard-render.example" target="_blank" rel="noopener" class="text-sm text-gray-700 hover:underline">Voir la démo</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="mt-12">
+      <h3 class="text-lg font-semibold">À propos</h3>
+      <div class="mt-3 text-gray-600">
+        <p><strong>Doctorat en Génie Mécanique</strong> — compréhension approfondie des machines et processus industriels.</p>
+        <p class="mt-2"><strong>Licence en Économie Appliquée</strong> — capacité à traduire les gains techniques en impact financier.</p>
+        <p class="mt-2">Actuellement Data Analyst dans une grande entreprise industrielle (expérience CAC40). J'accompagne les PME sur l'optimisation opérationnelle via la donnée.</p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="mt-12">
+      <h3 class="text-lg font-semibold">Contact</h3>
+      <div class="mt-4 grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="card">
+          <p class="text-sm text-gray-600">Envie d'un audit gratuit ou d'une discussion ?</p>
+          <p class="mt-3"><strong>Email:</strong> <a href="mailto:rodriguew4@gmail.com" class="text-gray-700 hover:underline">rodriguew4@gmail.com</a></p>
+          <p class="mt-1"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/efo%C3%A9-rodrigue-w-87705a12a" target="_blank" rel="noopener" class="text-gray-700 hover:underline">Profil LinkedIn</a></p>
+          <p class="mt-1"><strong>Téléphone:</strong> +33 6 45 95 70 01</p>
+        </div>
+        <div class="card">
+          <h4 class="font-semibold">Téléchargements</h4>
+          <ul class="mt-3 text-sm text-gray-600 space-y-2">
+            <li><a href="./data/machine_logs_drift.csv" class="hover:underline">Dataset (fictif) - maintenance</a></li>
+            <li><a href="./data/fake_machine_logs_balanced.csv" class="hover:underline">Dataset (fictif) - production</a></li>
+            <li><a href="./projects/README-projects.md" class="hover:underline">Documentation des projets</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="text-center text-xs text-gray-500 p-6">
+    © 2025 Efoé WALLACE — Portfolio
+  </footer>
+</body>
+</html>
