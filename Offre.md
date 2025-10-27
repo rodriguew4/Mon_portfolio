@@ -52,7 +52,7 @@ Data analyst confirmé dans la R&D d'un grand groupe industriel du CAC40.
 - **Avant** : reporting manuel, aucune visibilité sur la performance des machines.  
 - **Après** : décision de remise à niveau de la machine goulot (Tour #1) → **réduction de 10% des temps morts.**  
 
-<img src="./images/Dashboard_exemple_1.gif" width="900"/> 
+<img src="./assets/Gifs/Dashboard_exemple_1.gif" width="900"/> 
 
 Lien vers le Dashboard : 
 
@@ -69,7 +69,7 @@ _Exemple: Réduire vos temps d’arrêt de 10% peut générer +100k€/an selon 
 - **Avant** : Fichiers Excel dispersés   
 - **Après** : ....
 
-<img src="./images/Dashboard_exemple_3.gif" width="900"/> 
+<img src="./assets/Gifs/Dashboard_exemple_3.gif" width="900"/> 
 
 ---
 
